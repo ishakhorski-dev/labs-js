@@ -1,0 +1,17 @@
+{
+	"name": "labs-js",
+	"version": "0.0.0",
+	"scripts": {
+		"test:unit": "vitest",
+		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+	},
+	"devDependencies": {
+		"@rushstack/eslint-patch": "^1.10.3",
+		"eslint": "^9.3.0",
+		"prettier": "^3.2.5",
+		"vitest": "^1.6.0"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}
