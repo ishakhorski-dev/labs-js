@@ -21,7 +21,7 @@ const quickSort = <T>(arr: T[], compare: (a: T, b: T) => number): T[] => {
     if (compare(arr[i], pivot) < 0) {
       left.push(arr[i]);
     } else {
-      right.push;
+      right.push(arr[i]);
     }
   }
 

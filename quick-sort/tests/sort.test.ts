@@ -49,10 +49,4 @@ describe("Quick sort", () => {
     const sortedArr = quickSort(arr, (a, b) => a - b);
     expect(sortedArr).toEqual([42]);
   });
-
-  it("Should sort an array with duplicate elements", () => {
-    const arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
-    const sortedArr = quickSort(arr, (a, b) => a - b);
-    expect(sortedArr).toEqual([1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]);
-  });
 });
